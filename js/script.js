@@ -346,3 +346,4 @@ data
       launchImg.src = dataFromJSON.technology[2].images.portrait
     }
   })
+console.log('sus')

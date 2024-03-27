@@ -1,0 +1,69 @@
+.section {
+    padding-top: 251px;
+    padding-bottom: 131px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4.725px;
+        text-transform: uppercase;
+        color: #D0D6F9;
+        margin-bottom: 24px;
+        margin-top: 0;
+    }
+
+    &__text {
+        font-size: 150px;
+        line-height: 172px;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: 'Bellefair', serif;
+    }
+
+    &__abz {
+        width: 444px;
+        color: #D0D6F9;
+        font-size: 18px;
+        line-height: 32px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    &__button {
+        font-family: 'Bellefair', serif;    
+        font-size: 32px;
+        line-height: 37px;
+        letter-spacing: 2px;
+        color: #0B0D17;
+        width: 274px;
+        height: 274px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 88px solid transparent;
+        background-clip: padding-box;
+        box-sizing: content-box;
+    }
+
+    &__button:hover {
+        border: 88px solid rgba(255, 255, 255,0.1);
+    }
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+@import "vars";
+@import "global";
+@import "desktop";
+@import "destination";
+@import "crew";
+@import "tech";

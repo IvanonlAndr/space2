@@ -1,0 +1,998 @@
+@media (max-width: 1290px) {
+  .box {
+    max-width: 1250px;
+  }
+  .container {
+    max-width: 1090px;
+  }
+  .header__menu::before {
+    display: none;
+  }
+}
+@media (max-width: 1130px) {
+  .box {
+    max-width: 940px;
+  }
+  .container {
+    max-width: 820px;
+  }
+  .header__menu {
+    width: 645px;
+  }
+  .section__text {
+    font-size: 145px;
+  }
+  .section__abz {
+    font-size: 17px;
+  }
+  .section__button {
+    width: 195px;
+    height: 195px;
+  }
+}
+@media (max-width: 860px) {
+  .box {
+    max-width: 820px;
+  }
+  .index {
+    background-image: url(../mobile-img/background.jpg);
+  }
+  .destination {
+    background-image: url(../mobile-img/moon-bg.jpg);
+  }
+  .body__crew {
+    background-image: url(../mobile-img/crew_bg.jpg);
+  }
+  .tech {
+    background-image: url(../mobile-img/vehicle_bg.jpg);
+  }
+  .container {
+    max-width: 715px;
+  }
+  .header {
+    padding-top: 0;
+  }
+  .header img {
+    margin-left: 40px;
+  }
+  .header__menu {
+    width: 450px;
+  }
+  .header__menu-items {
+    width: 356px;
+  }
+  .header span {
+    display: none;
+  }
+  .section {
+    padding-top: 106px;
+    padding-bottom: 90px;
+  }
+  .section h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+  }
+  .section__inner {
+    flex-direction: column;
+    height: 732px;
+  }
+  .section__text {
+    line-height: 150px;
+    margin-bottom: 24px;
+  }
+  .section__abz {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 780px) {
+  .box {
+    max-width: 768px;
+  }
+  .container {
+    max-width: 680px;
+  }
+}
+@media (max-width: 600px) {
+  .box {
+    max-width: 560px;
+  }
+  .container {
+    max-width: 487px;
+  }
+  .header {
+    padding-top: 24px;
+    position: relative;
+  }
+  .header__menu-items {
+    top: 0;
+    width: 100%;
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    transition: all 0.4s;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .header__menu {
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+    height: 100vh;
+    top: 0;
+    max-width: 254px;
+    align-items: normal;
+    -webkit-backdrop-filter: blur(40px);
+            backdrop-filter: blur(40px);
+    background: rgba(255, 255, 255, 0.04);
+    padding-top: 118px;
+    display: none;
+  }
+  .header .active li {
+    display: block;
+  }
+  .header li {
+    width: auto;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    display: none;
+    height: auto;
+  }
+  .header .header__menu.active {
+    display: block;
+  }
+  .header__menu-item-active a {
+    border-right: 3px solid #fff;
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-right: 147px;
+  }
+  .header__menu-item-active:nth-child(2) a {
+    border-right: 3px solid #fff;
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-right: 92px;
+  }
+  .header__menu-item-active:nth-child(3) a {
+    border-right: 3px solid #fff;
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-right: 147px;
+  }
+  .header__menu-item-active:nth-child(4) a {
+    border-right: 3px solid #fff;
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-right: 92px;
+  }
+  .header__menu-item a:hover {
+    border-right: 3px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 0;
+    padding-bottom: 0;
+    padding-right: 148px;
+  }
+  .header__menu-item:nth-child(2) a:hover {
+    border-right: 3px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 0;
+    padding-bottom: 0;
+    padding-right: 93px;
+  }
+  .header__menu-item:nth-child(4) a:hover {
+    border-right: 3px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 0;
+    padding-bottom: 0;
+    padding-right: 92px;
+  }
+  .header .icon.active .top {
+    top: 10px;
+    transform: rotate(45deg);
+  }
+  .header .icon.active .middle {
+    width: 0;
+  }
+  .header .icon.active .bottom {
+    top: 10px;
+    transform: rotate(-45deg);
+  }
+  .header .icon {
+    display: block;
+  }
+  .icon {
+    width: 24px;
+    height: 21px;
+    position: absolute;
+    cursor: pointer;
+    right: 24px;
+    transition: all 800ms cubic-bezier(0.9, 0, 0.33, 1);
+    z-index: 2000;
+    top: 34px;
+  }
+  .icon__line {
+    width: 24px;
+    height: 3px;
+    position: absolute;
+    transform: rotate(0);
+    transition: all 800ms cubic-bezier(0.9, 0, 0.33, 1);
+    transition: all 0.4s;
+    background: #D0D6F9;
+  }
+  .icon .top {
+    top: 0;
+    padding-right: 0;
+  }
+  .icon .middle {
+    top: 10px;
+    padding-right: 0;
+  }
+  .icon .bottom {
+    top: 20px;
+    padding-right: 0;
+  }
+}
+@media (max-width: 490px) {
+  .box {
+    max-width: 450px;
+  }
+  .container {
+    max-width: 391px;
+  }
+  .section h1 {
+    margin-bottom: 16px;
+  }
+  .section__text {
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .section__abz {
+    width: 390px;
+    font-size: 15px;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 420px) {
+  .box {
+    max-width: 375px;
+  }
+  .container {
+    max-width: 327px;
+  }
+  .header img {
+    margin-left: 24px;
+  }
+  .header .header__menu-items.header__menu-items-active {
+    opacity: 1;
+    width: 254px;
+  }
+  .section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .section h1 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .section__text {
+    font-size: 80px;
+    line-height: 100px;
+  }
+  .section__abz {
+    width: 327px;
+  }
+  .section__button {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    line-height: 23px;
+    border: 35px solid transparent;
+  }
+  .section__button:hover {
+    border: 35px solid rgba(255, 255, 255, 0.1);
+  }
+  .section__inner {
+    height: 507px;
+  }
+}
+@media (max-width: 1130px) {
+  .planets__inner-left {
+    width: 400px;
+    height: 400px;
+  }
+  .planets__menu {
+    margin: 0 auto 37px;
+  }
+  .planets__text {
+    text-align: center;
+  }
+  .planets__abz {
+    text-align: center;
+    width: 385px;
+    font-size: 16px;
+    margin: 0 auto 28px;
+  }
+  .planets__info-inner {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 860px) {
+  .planets h1 {
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+  }
+  .planets__f {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+    padding-right: 19px;
+  }
+  .planets__inner {
+    flex-direction: column;
+  }
+  .planets__inner-left {
+    margin-bottom: 53px;
+  }
+  .planets__menu {
+    margin-bottom: 32px;
+  }
+  .planets__text {
+    font-size: 80px;
+    line-height: 92px;
+  }
+  .planets__abz {
+    font-size: 16px;
+    line-height: 28px;
+    width: 573px;
+    padding-bottom: 49px;
+  }
+  .planets__distance {
+    text-align: center;
+  }
+  .planets__travel {
+    text-align: center;
+  }
+}
+@media (max-width: 780px) {
+  .planets__inner-left {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 730px) {
+  .container {
+    max-width: 600px;
+  }
+}
+@media (max-width: 645px) {
+  .contianer {
+    max-width: 530px;
+  }
+  .planets h1 {
+    text-align: center;
+  }
+  .planets__inner-left {
+    margin-bottom: 53px;
+  }
+  .planets__text {
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 600px) {
+  .planets {
+    padding-top: 40px;
+    padding-bottom: 62px;
+  }
+  .planets__abz {
+    width: 390px;
+  }
+}
+@media (max-width: 430px) {
+  .container {
+    max-width: 327px;
+  }
+  .planets__inner-left {
+    width: 170px;
+    height: 170px;
+  }
+  .planets h1 {
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .planets__menu {
+    margin-bottom: 20px;
+  }
+  .planets__text {
+    font-size: 56px;
+    line-height: 64px;
+  }
+  .planets__abz {
+    font-size: 15px;
+    line-height: 25px;
+    width: 327px;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+  }
+  .planets__info-inner {
+    flex-direction: column;
+    height: 154px;
+  }
+}
+@media (max-width: 1290px) {
+  .container {
+    max-width: 1090px;
+  }
+  .crew__inner-ansari {
+    width: 550px;
+    height: 486px;
+  }
+}
+@media (max-width: 1130px) {
+  .container {
+    max-width: 820px;
+  }
+  .crew__inner-right {
+    width: 430px;
+  }
+  .crew__inner-shuttleworth {
+    width: 430px;
+  }
+  .crew__inner-glover {
+    width: 430px;
+  }
+  .crew__inner-ansari {
+    width: 430px;
+  }
+  .crew__abz {
+    margin-bottom: 32px;
+  }
+  .crew__name {
+    font-size: 40px;
+  }
+}
+@media (max-width: 960px) {
+  .container {
+    max-width: 800px;
+  }
+  .crew__inner-right {
+    width: 370px;
+  }
+  .crew__inner-shuttleworth {
+    width: 365px;
+  }
+  .crew__inner-glover {
+    width: 355px;
+  }
+  .crew__inner-ansari {
+    width: 375px;
+  }
+}
+@media (max-width: 860px) {
+  .container {
+    max-width: 715px;
+  }
+  .crew__inner {
+    flex-direction: column;
+    height: 844px;
+  }
+  .crew h1 {
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .crew__class {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .crew__name {
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+  }
+  .crew__abz {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+  .crew__slider-buttons {
+    margin: 0 auto;
+  }
+  .crew__inner-right {
+    width: 456px;
+  }
+  .crew__inner-shuttleworth {
+    width: 368px;
+  }
+  .crew__inner-glover {
+    width: 433px;
+  }
+  .crew__inner-ansari {
+    width: 539px;
+  }
+}
+@media (max-width: 780px) {
+  .container {
+    max-width: 680px;
+  }
+}
+@media (max-width: 720px) {
+  .box-2 {
+    max-width: 680px;
+  }
+  .container {
+    max-width: 590px;
+  }
+}
+@media (max-width: 630px) {
+  .container {
+    max-width: 515px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    max-width: 487px;
+  }
+  .header__menu-btn {
+    display: block;
+    width: 24px;
+    height: 21px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    border-top: 3px solid #D0D6F9;
+    border-bottom: 3px solid #D0D6F9;
+    position: relative;
+    z-index: 2000;
+    transition: all 0.9s;
+  }
+  .header__menu-btn::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    background-color: #D0D6F9;
+    right: 0;
+    top: 9px;
+    transition: all 0.4s, width 0.5s;
+  }
+  .header__menu-item-active:nth-child(3) {
+    padding-top: 0;
+  }
+  .header span {
+    display: block;
+  }
+  .header a {
+    display: flex;
+  }
+  .header__menu-btn_close {
+    position: relative;
+    right: -6px;
+    bottom: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    z-index: 2000;
+  }
+  .header__menu-btn_close:before, .header__menu-btn_close:after {
+    position: absolute;
+    left: 0;
+    content: " ";
+    height: 25px;
+    width: 3px;
+    background-color: #D0D6F9;
+  }
+}
+@media (max-width: 560px) {
+  .crew__inner-ansari {
+    width: 460px;
+  }
+}
+@media (max-width: 520px) {
+  .container {
+    max-width: 421px;
+  }
+}
+@media (max-width: 490px) {
+  .container {
+    max-width: 391px;
+  }
+  .crew {
+    padding-top: 24px;
+  }
+  .crew h1 {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .crew__inner {
+    flex-direction: column-reverse;
+  }
+  .crew__inner-left {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .crew__photo-border {
+    width: 327px;
+    border-bottom: #383B4B 1px solid;
+    margin: 0 auto;
+  }
+  .crew__inner-right {
+    width: 172px;
+    height: 222px;
+  }
+  .crew__inner-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .crew__slider-buttons {
+    margin-bottom: 32px;
+  }
+  .crew__inner {
+    height: auto;
+    padding-top: 32px;
+  }
+  .crew__abz {
+    font-size: 15px;
+    line-height: 25px;
+    width: 327px;
+    margin: 0 auto 54px;
+  }
+  .crew__inner-shuttleworth {
+    width: 153px;
+    height: 222px;
+  }
+  .crew__inner-glover {
+    width: 180px;
+    height: 222px;
+  }
+  .crew__inner-ansari {
+    width: 226px;
+    height: 222px;
+  }
+  .crew__name {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .crew__class {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    max-width: 327px;
+  }
+  .crew__class {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .crew__name {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .crew__abz {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 1290px) {
+  .container {
+    max-width: 1090px;
+  }
+  .launch__inner-right {
+    width: 410px;
+    height: 415px;
+  }
+  .launch__inner-right-2 {
+    width: 410px;
+    height: 415px;
+  }
+  .launch__inner-right-3 {
+    width: 410px;
+    height: 415px;
+  }
+}
+@media (max-width: 1240px) {
+  .launch__inner-middle {
+    margin-left: 80px;
+  }
+  .launch h1 {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 1160px) {
+  .launch__inner-middle {
+    margin-left: 45px;
+  }
+  .launch h1 {
+    margin-left: 45px;
+  }
+}
+@media (max-width: 1130px) {
+  .container {
+    max-width: 820px;
+  }
+  .section__text {
+    font-size: 145px;
+  }
+  .section__abz {
+    font-size: 17px;
+  }
+  .launch__inner-left {
+    padding-right: 40px;
+  }
+  .launch__name {
+    font-size: 43px;
+  }
+  .launch__abz {
+    font-size: 15px;
+    width: 390px;
+  }
+  .launch__inner-right {
+    width: 360px;
+    height: 365px;
+  }
+  .launch__inner-right-2 {
+    width: 360px;
+    height: 365px;
+  }
+  .launch__inner-right-3 {
+    width: 360px;
+    height: 365px;
+  }
+}
+@media (max-width: 940px) {
+  .container {
+    max-width: 785px;
+  }
+  .launch {
+    padding-top: 40px;
+    padding-bottom: 97px;
+  }
+  .launch__inner {
+    flex-direction: column-reverse;
+    height: auto;
+    padding-top: 0;
+  }
+  .launch__inner-middle {
+    flex-direction: column;
+    margin: 0;
+  }
+  .launch__inner-left {
+    flex-direction: row;
+    height: auto;
+    margin-bottom: 44px;
+  }
+  .launch__inner-right {
+    position: static;
+    width: 100%;
+    height: 310px;
+    margin-bottom: 56px;
+    background-image: url(../mobile-img/vechicle.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .launch h1 {
+    margin-left: 38px;
+  }
+  .launch__inner-right-2 {
+    position: static;
+    width: 100%;
+    height: 310px;
+    margin-bottom: 56px;
+    background-image: url(../mobile-img/spaceport.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .launch__inner-right-3 {
+    position: static;
+    width: 100%;
+    height: 310px;
+    margin-bottom: 56px;
+    background-image: url(../mobile-img/capsule.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .launch h1 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 60px;
+    letter-spacing: 3.375px;
+  }
+  .launch__zag {
+    text-align: center;
+  }
+  .launch__name {
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+  }
+  .launch__abz {
+    width: 458px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
+@media (max-width: 860px) {
+  .box-3 {
+    max-width: 820px;
+    background-image: url(../mobile-img/vehicle_bg.jpg);
+  }
+  .container {
+    max-width: 715px;
+  }
+}
+@media (max-width: 800px) {
+  .launch__inner-right {
+    width: 100%;
+  }
+}
+@media (max-width: 780px) {
+  .container {
+    max-width: 680px;
+  }
+  .launch__inner-left {
+    width: 210px;
+    padding-right: 0;
+  }
+  .launch__info-button-active {
+    width: 60px;
+    height: 60px;
+  }
+  .launch__info-button {
+    width: 60px;
+    height: 60px;
+  }
+  .launch__inner-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    max-width: 591px;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    max-width: 522px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    max-width: 487px;
+  }
+  .header__menu-item-active:nth-child(4) {
+    padding-top: 0;
+  }
+}
+@media (max-width: 510px) {
+  .container {
+    max-width: 408px;
+  }
+  .launch {
+    padding-top: 24px;
+    padding-bottom: 81px;
+  }
+  .launch h1 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 32px;
+    margin-left: 0;
+  }
+  .launch__inner-right {
+    margin-bottom: 34px;
+    height: 170px;
+  }
+  .launch__inner-right-2 {
+    margin-bottom: 34px;
+    height: 170px;
+  }
+  .launch__inner-right-3 {
+    margin-bottom: 34px;
+    height: 170px;
+  }
+  .launch__info-button-active {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .launch__info-button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .launch__inner-left {
+    margin-bottom: 26px;
+    width: 152px;
+  }
+  .launch__zag {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .launch__name {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+  .launch__abz {
+    font-size: 15px;
+    line-height: 25px;
+    width: 327px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 490px) {
+  .container {
+    max-width: 391px;
+  }
+  .section h1 {
+    margin-bottom: 16px;
+  }
+  .section__text {
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .section__abz {
+    width: 390px;
+    font-size: 15px;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    max-width: 327px;
+  }
+  .section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .section h1 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .section__text {
+    font-size: 80px;
+    line-height: 100px;
+  }
+  .section__abz {
+    width: 327px;
+  }
+  .section__button {
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .section__inner {
+    height: 507px;
+  }
+}/*# sourceMappingURL=media.css.map */

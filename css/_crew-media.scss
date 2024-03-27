@@ -1,0 +1,370 @@
+@media(max-width:1290px) {
+
+    .container {
+        max-width: 1090px;
+    }
+
+    .crew {
+        &__inner-ansari {
+            width: 550px;
+            height: 486px;
+        }
+    }
+}
+
+@media(max-width:1130px) {
+
+
+    .container {
+        max-width: 820px;
+    }
+
+    .crew {
+        &__inner-right {
+            width: 430px;
+        }
+
+        &__inner-shuttleworth {
+            width: 430px;
+        }
+
+        &__inner-glover {
+            width: 430px;
+        }
+
+        &__inner-ansari {
+            width: 430px;
+        }
+
+        &__abz {
+            margin-bottom: 32px;
+        }
+
+        &__name {
+            font-size: 40px;
+        }
+    }
+}
+
+@media(max-width:960px) {
+
+    .container {
+        max-width: 800px;
+    }
+
+    .crew {
+        &__inner-right {
+            width: 370px;
+        }
+
+        &__inner-shuttleworth {
+            width: 365px;
+        }
+
+        &__inner-glover {
+            width: 355px;
+        }
+
+        &__inner-ansari {
+            width: 375px;
+        }
+    }
+}
+
+@media(max-width:860px) {
+
+
+    .container {
+        max-width: 715px;
+    }
+
+    .crew {
+        &__inner {
+            flex-direction: column;
+            height: 844px;
+        }
+
+        h1 {
+            margin-bottom: 60px;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #fff;
+            
+           
+        }
+
+        &__class {
+            text-align: center;
+            margin-bottom: 8px;
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        &__name {
+            margin-bottom: 16px;
+            font-size: 40px;
+            line-height: 46px;
+            text-align: center;
+        }
+
+        &__abz {
+            text-align: center;
+            font-size: 16px;
+            line-height: 28px;
+            margin-bottom: 40px;
+        }
+
+        &__slider-buttons {
+            margin: 0 auto;
+        }
+
+        &__inner-right {
+            width: 456px;
+        }
+
+        &__inner-shuttleworth {
+            width: 368px;
+        }
+
+        &__inner-glover {
+            width: 433px;
+        }
+
+        &__inner-ansari {
+            width: 539px;
+        }
+    }
+}
+
+@media(max-width:780px) {
+    .container {
+        max-width: 680px;
+    }
+
+    .section {}
+}
+
+@media(max-width:720px) {
+    .box-2 {
+        max-width: 680px;
+    }
+
+    .container {
+        max-width: 590px;
+    }
+}
+
+@media(max-width:630px) {
+
+
+    .container {
+        max-width: 515px;
+    }
+}
+
+@media(max-width:600px) {
+
+
+    .container {
+        max-width: 487px;
+    }
+
+    .header {
+
+
+        &__menu-btn {
+            display: block;
+            width: 24px;
+            height: 21px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 0;
+            border-top: 3px solid#D0D6F9;
+            border-bottom: 3px solid#D0D6F9;
+            position: relative;
+            z-index: 2000;
+            transition: all 0.9s;
+        }
+
+        &__menu-btn::after {
+            content: '';
+            position: absolute;
+            width: 24px;
+            height: 3px;
+            background-color: #D0D6F9;
+            right: 0;
+            top: 9px;
+            transition: all 0.4s, width 0.5s;
+        }
+
+
+        &__menu-item-active:nth-child(3) {
+            padding-top: 0;
+        }
+
+        span {
+            display: block;
+        }
+
+        a {
+            display: flex;
+        }
+
+      
+
+        &__menu-btn_close {
+            position: relative;
+            right: -6px;
+            bottom: 8px;
+            width: 20px;
+            height: 20px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            display: block;
+            z-index: 2000;
+        }
+
+
+        &__menu-btn_close:before,
+        &__menu-btn_close:after {
+            position: absolute;
+            left: 0;
+            content: ' ';
+            height: 25px;
+            width: 3px;
+            background-color: #D0D6F9;
+        }
+
+     
+        
+    }
+}
+
+@media(max-width:560px) {
+    .crew {
+        &__inner-ansari {
+            width: 460px;
+        }
+    }
+}
+
+@media(max-width:520px) {
+
+    .container {
+        max-width: 421px;
+    }
+}
+
+@media(max-width:490px) {
+
+    .container {
+        max-width: 391px;
+    }
+
+    .crew {
+        padding-top: 24px;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        &__inner {
+            flex-direction: column-reverse;
+        }
+
+        &__inner-left {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        &__photo-border {
+            width: 327px;
+            border-bottom: #383B4B 1px solid;
+            margin: 0 auto;
+        }
+
+        &__inner-right {
+            width: 172px;
+            height: 222px;
+        }
+
+        &__inner-photo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 32px;
+        }
+
+        &__slider-buttons {
+            margin-bottom: 32px;
+        }
+
+        &__inner {
+            height: auto;
+            padding-top: 32px;
+        }
+
+        &__abz {
+            font-size: 15px;
+            line-height: 25px;
+            width: 327px;
+            margin: 0 auto 54px;
+        }
+
+        &__inner-shuttleworth {
+            width: 153px;
+            height: 222px;
+        }
+
+        &__inner-glover {
+            width: 180px;
+            height: 222px;
+        }
+
+        &__inner-ansari {
+            width: 226px;
+            height: 222px;
+        }
+
+        &__name {
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        &__class {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+    }
+}
+
+@media(max-width:420px) {
+
+
+    .container {
+        max-width: 327px;
+    }
+
+    .crew {
+        &__class {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        &__name {
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        &__abz {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}

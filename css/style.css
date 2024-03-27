@@ -1,0 +1,492 @@
+.section {
+  padding-top: 251px;
+  padding-bottom: 131px;
+}
+.section__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section h1 {
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  color: #D0D6F9;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+.section__text {
+  font-size: 150px;
+  line-height: 172px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Bellefair", serif;
+}
+.section__abz {
+  width: 444px;
+  color: #D0D6F9;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Barlow", sans-serif;
+}
+.section__button {
+  font-family: "Bellefair", serif;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 2px;
+  color: #0B0D17;
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 88px solid transparent;
+  background-clip: padding-box;
+  box-sizing: content-box;
+}
+.section__button:hover {
+  border: 88px solid rgba(255, 255, 255, 0.1);
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.index {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.destination {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../img/moon_bg.jpg);
+}
+
+.body__crew {
+  background-image: url(../img/crew_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.tech {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../img/vehicle_bg.jpg);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+}
+
+ul,
+li {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 542px;
+  height: 19px;
+}
+
+.header {
+  padding-top: 40px;
+  position: relative;
+}
+.header .icon {
+  display: none;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__line {
+  border: #fff 1px solid;
+  width: 473px;
+  opacity: 0.25;
+  position: absolute;
+  left: 167px;
+  z-index: 1000;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+  width: 830px;
+  height: 96px;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-backdrop-filter: blur(40.7742px);
+          backdrop-filter: blur(40.7742px);
+  position: relative;
+}
+.header__menu::before {
+  content: "";
+  position: absolute;
+  border: 1px rgba(255, 255, 255, 0.25) solid;
+  width: 473px;
+  left: -433px;
+}
+.header img {
+  margin-left: 55px;
+  width: 48px;
+  height: 48px;
+}
+.header span {
+  padding-right: 11px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #FFF;
+}
+.header__menu-item-active a {
+  border-bottom: 3px solid #fff;
+  padding-bottom: 54px;
+}
+.header__menu-item a:hover {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 54px;
+}
+
+.header__menu-item-active:nth-child(2) {
+  padding-top: 0;
+}
+
+.planets {
+  padding-top: 76px;
+  padding-bottom: 113px;
+}
+.planets__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.planets__f {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #FFFFFF;
+  opacity: 0.25;
+  padding-right: 28px;
+}
+.planets h1 {
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 97px;
+  margin-top: 0;
+}
+.planets__menu {
+  width: 285px;
+  margin-bottom: 37px;
+}
+.planets__menu-items {
+  width: 285px;
+}
+.planets__text {
+  font-family: "Bellefair";
+  font-size: 100px;
+  line-height: 115px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.planets__abz {
+  width: 444px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #D0D6F9;
+  border-bottom: #383B4B 1px solid;
+  padding-bottom: 54px;
+  margin-bottom: 28px;
+  font-family: "Barlow", sans-serif;
+}
+.planets__info-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 344px;
+}
+.planets__avg {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2.3625px;
+  text-transform: uppercase;
+  color: #D0D6F9;
+  margin-bottom: 12px;
+}
+.planets__km {
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: "Bellefair";
+}
+.planets__travel-time {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2.3625px;
+  text-transform: uppercase;
+  color: #D0D6F9;
+  margin-bottom: 12px;
+}
+.planets__days {
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: "Bellefair";
+}
+.planets__menu-item.active a {
+  border-bottom: 3px solid #fff;
+  padding-bottom: 31px;
+}
+.planets__menu-item:hover a {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 31px;
+}
+
+.box-2 {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: "Barlow Condensed", sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../img/crew_bg.png);
+}
+
+.crew {
+  padding-top: 62px;
+}
+.crew__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.crew__inner-photo {
+  display: flex;
+}
+.crew__class {
+  font-family: "Bellefair";
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.5;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.crew__name {
+  font-family: "Bellefair";
+  font-size: 56px;
+  line-height: 64px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+.crew__abz {
+  width: 444px;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #D0D6F9;
+  margin-bottom: 120px;
+}
+.crew__slider-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 132px;
+}
+.crew__slider-button-active {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.crew__slider-button {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0.17;
+}
+.crew__slider-button:hover {
+  opacity: 0.5;
+}
+.crew h1 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.launch {
+  padding-top: 136px;
+  padding-bottom: 101px;
+}
+.launch__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 527px;
+  padding-top: 26px;
+}
+.launch__inner-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 304px;
+  padding-right: 80px;
+}
+.launch__info-button-active {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bellefair";
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #0B0D17;
+}
+.launch__info-button {
+  width: 80px;
+  height: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 2px;
+}
+.launch__info-button:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+.launch__inner-middle {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 165px;
+}
+.launch h1 {
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 4.725px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-left: 165px;
+}
+.launch__inner-right {
+  background-image: url(../img/vehicle.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  width: 515px;
+  height: 527px;
+}
+.launch__inner-right-2 {
+  background-image: url(../img/spaceport.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  width: 515px;
+  height: 527px;
+}
+.launch__inner-right-3 {
+  background-image: url(../img/capsule.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  width: 515px;
+  height: 527px;
+}
+.launch__zag {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #D0D6F9;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+.launch__name {
+  font-family: "Bellefair";
+  font-size: 56px;
+  line-height: 64px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+.launch__abz {
+  font-family: "Barlow";
+  font-size: 18px;
+  line-height: 32px;
+  width: 444px;
+  color: #D0D6F9;
+}/*# sourceMappingURL=style.css.map */

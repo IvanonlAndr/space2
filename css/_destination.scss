@@ -1,0 +1,117 @@
+
+.header {
+    &__menu-item-active:nth-child(2){
+        padding-top: 0;
+    }
+}
+
+.planets {
+    padding-top: 76px;
+    padding-bottom: 113px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__f {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4.725px;
+        color: #FFFFFF;
+        opacity: 0.25;
+        padding-right: 28px;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4.725px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 97px;
+        margin-top: 0;
+    }
+
+    &__menu {
+        width: 285px;
+        margin-bottom: 37px;
+    }
+
+    &__menu-items {
+        width: 285px;
+    }
+
+
+    &__text {
+        font-family: 'Bellefair';
+        font-size: 100px;
+        line-height: 115px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+    }
+
+    &__abz {
+        width: 444px;
+        font-size: 18px;
+        line-height: 32px;
+        color: #D0D6F9;
+        border-bottom: #383B4B 1px solid;
+        padding-bottom: 54px;
+        margin-bottom: 28px;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    &__info-inner {
+        display: flex;
+        justify-content: space-between;
+        width: 344px;
+    }
+
+    &__avg {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.3625px;
+        text-transform: uppercase;
+        color: #D0D6F9;
+        margin-bottom: 12px;
+    }
+
+    &__km {
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-family: 'Bellefair';
+
+    }
+
+    &__travel-time {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.3625px;
+        text-transform: uppercase;
+        color: #D0D6F9;
+        margin-bottom: 12px;
+    }
+
+    &__days {
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-family: 'Bellefair';
+    }
+
+    &__menu-item.active a{
+        border-bottom: 3px solid #fff;
+        padding-bottom: 31px;
+    }
+
+    &__menu-item:hover a{
+        border-bottom: 3px solid rgb(255, 255, 255, 0.5);
+        padding-bottom: 31px;
+    }
+}
